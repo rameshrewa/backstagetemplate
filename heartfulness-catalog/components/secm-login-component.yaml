@@ -1,16 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: campus-lookup
-  description: Campus Lookup
+  name: srcm-login
+  description: srcm login
   tags:
-    - laravel
-    - data 
+    - srcm
 spec:
   type: service
   lifecycle: experimental
   owner: frontend-team-group
   system: campus-portal
-  dependsOn: ['resource:campus-db']
-  apiConsumedBy: ['component:www-campus']
   
