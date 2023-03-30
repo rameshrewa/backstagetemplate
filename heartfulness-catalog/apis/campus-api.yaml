@@ -17,6 +17,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: frontend-team-group
+  system: campus-portal
   definition: |
     openapi: "3.0.0"
     info:
