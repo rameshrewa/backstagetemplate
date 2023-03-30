@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: campus-portal-portal
+  description: Everything related to Campus System
+  tags:
+    - portal
+spec:
+  owner: frontend-team-group
+  domain: campus
