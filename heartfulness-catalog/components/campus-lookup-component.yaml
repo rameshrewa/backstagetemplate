@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: campus-lookup
+  description: Campus Lookup
+  tags:
+    - laravel
+    - data 
+spec:
+  type: service
+  lifecycle: experimental
+  owner: frontend-team-group
+  system: campus-portal
+  dependsOn: ['resource:campus-db']
+  apiConsumedBy: ['component:www-campus']
