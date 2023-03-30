@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: campus-portal-portal
+  name: Campus Portal
   description: Everything related to Campus System
   tags:
     - portal
