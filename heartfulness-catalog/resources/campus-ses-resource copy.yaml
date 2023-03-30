@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: campus-ses
+  description: Send Campus Notification
+spec:
+  type: Notification
+  owner: devops-team-group
+  system: campus-portal

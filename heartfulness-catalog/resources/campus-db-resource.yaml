@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: campus-db
+  description: Stores Campus details
+spec:
+  type: database
+  owner: devops-team-group
+  system: campus-portal
