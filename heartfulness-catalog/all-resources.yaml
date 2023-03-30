@@ -6,3 +6,5 @@ metadata:
 spec:
   targets:
     - ./resources/campus-db-resource.yaml
+    - ./resources/campus-s3-resource.yaml
+    - ./resources/campus-ses-resource.yaml
