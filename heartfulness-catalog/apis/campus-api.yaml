@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
-  description: The petstore API
+  name: campus
+  description: The campus API
   tags:
     - store
     - rest
@@ -15,8 +15,8 @@ metadata:
       icon: code
 spec:
   type: openapi
-  lifecycle: experimental
-  owner: team-c
+  lifecycle: production
+  owner: frontend-team-group
   definition: |
     openapi: "3.0.0"
     info:
