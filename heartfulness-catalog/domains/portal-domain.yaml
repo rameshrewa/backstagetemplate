@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: campus
-  description: Everything related to Campus
+  name: Portal
+  description: Everything related to Portal
   links:
     - url: https://campus.heartfulness.org/
       title: Domain Readme
