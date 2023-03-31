@@ -5,5 +5,6 @@ metadata:
   description: Send Campus Notification
 spec:
   type: Notification
+  lifecycle: production
   owner: devops-team-group
   system: campus-portal
