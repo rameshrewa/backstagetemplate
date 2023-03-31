@@ -6,6 +6,6 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: team-a
+  owner: frontend-team-group
   system: campus-portal
   consumesApis: ['component:campus-lookup']

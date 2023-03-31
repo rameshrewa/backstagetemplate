@@ -8,7 +8,7 @@ metadata:
     - data 
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: frontend-team-group
   system: campus-portal
   dependsOn: ['resource:campus-db']
