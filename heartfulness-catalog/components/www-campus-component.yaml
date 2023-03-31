@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: www-campus
   description: campus main website
+  tags:
+    - ReactJS
 spec:
   type: website
   lifecycle: production

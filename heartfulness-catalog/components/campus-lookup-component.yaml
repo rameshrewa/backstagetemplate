@@ -5,7 +5,7 @@ metadata:
   description: Campus Lookup
   tags:
     - laravel
-    - data 
+    - mysql 
 spec:
   type: service
   lifecycle: production
