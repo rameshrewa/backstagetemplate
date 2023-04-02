@@ -4,10 +4,10 @@ metadata:
   name: www-campus
   description: campus main website
   tags:
-    - ReactJS
+    - reactJS
 spec:
   type: website
   lifecycle: production
-  owner: react-nectjs-team
+  owner: react-nextjs-team
   system: campus-portal
   consumesApis: ['component:campus-lookup']

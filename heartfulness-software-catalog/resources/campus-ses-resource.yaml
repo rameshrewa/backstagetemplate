@@ -6,5 +6,5 @@ metadata:
 spec:
   type: Notification
   lifecycle: production
-  owner: devops-team-group
+  owner: devops-aws-team
   system: campus-portal

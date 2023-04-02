@@ -6,5 +6,5 @@ metadata:
   tags:
     - portal
 spec:
-  owner: [product-owner-team]
+  owner: product-owner-team
   domain: admin-interfaces-domain

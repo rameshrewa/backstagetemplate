@@ -16,7 +16,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: frontend-team-group
+  owner: react-nexjs-team
   system: campus-portal
   definition: |
     openapi: "3.0.0"

@@ -6,5 +6,5 @@ metadata:
 spec:
   type: Storage Bucket
   lifecycle: production
-  owner: devops-team-group
+  owner: devops-aws-team
   system: campus-portal
