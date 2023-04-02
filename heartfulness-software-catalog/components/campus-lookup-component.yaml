@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: campus-lookup
+  description: Campus Lookup
+  tags:
+    - laravel
+    - mysql 
+spec:
+  type: service
+  lifecycle: production
+  owner: react-nextjs-team
+  system: campus-portal
+  dependsOn: ['resource:campus-db']
+  apiConsumedBy: ['component:www-campus']
+  

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Admin Interfaces Domain
+  description: Everything related to Admin Interface Portals
+  links:
+    - url: https://campus.heartfulness.org/
+      title: Domain Readme
+    - url: https://campus.heartfulness.org/
+      title: Domain Metrics Dashboard
+      icon: dashboard
+spec:
+  owner: manager-team
