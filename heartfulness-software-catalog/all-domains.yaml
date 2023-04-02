@@ -5,4 +5,6 @@ metadata:
   description: A collection of all Backstage example domains
 spec:
   targets:
-    - ./domains/portal-domain.yaml
+    - ./domains/admin-Interfaces-domain.yaml
+    - ./domains/cms-application-domain.yaml
+    - ./domains/donation-application-domain.yaml

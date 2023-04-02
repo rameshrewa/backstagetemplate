@@ -4,7 +4,7 @@ metadata:
   name: www-campus
   description: campus main website
   tags:
-    - reactJS
+    - reactjs
 spec:
   type: website
   lifecycle: production
