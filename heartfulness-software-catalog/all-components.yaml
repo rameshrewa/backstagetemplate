@@ -7,4 +7,3 @@ spec:
   targets:
     - ./components/campus-lookup-component.yaml
     - ./components/www-campus-component.yaml
-    - ./components/srcm-login-component.yaml
