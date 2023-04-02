@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: campus-lookup
   description: Campus Lookup
+  - url: https://campusapi.heartfulness.org/
+      title: API URL
+      icon: dashboard
   tags:
     - laravel
     - mysql 

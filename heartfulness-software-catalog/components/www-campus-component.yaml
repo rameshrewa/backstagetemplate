@@ -3,11 +3,15 @@ kind: Component
 metadata:
   name: www-campus
   description: campus main website
+  links:
+    - url: https://campus.heartfulness.org/
+      title: Home page
+      icon: dashboard
   tags:
     - reactjs
 spec:
   type: website
   lifecycle: production
-  owner: react-nextjs-team
+  owner: ['react-nextjs-team:ramesh.pandi']
   system: campus-portal
   consumesApis: ['component:campus-lookup']
