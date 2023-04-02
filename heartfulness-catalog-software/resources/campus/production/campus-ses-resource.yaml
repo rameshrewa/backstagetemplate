@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: campus-ses
+  description: Send Campus Notification
+spec:
+  type: Notification
+  lifecycle: production
+  owner: devops-aws-team
+  system: campus-portal

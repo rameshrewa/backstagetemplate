@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: react-nextjs-team
+  description: React & Nextjs Team
+spec:
+  type: team
+  profile:
+    displayName: Ramkumar rajakumaran
+    email: ramkumar.rajakumaran@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ramesh.pandi
+spec:
+  profile:
+    displayName: Ramesh Pandi
+    email: ramesh.pandi@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/avataaars/amelia-park@example.com.svg?background=%23fff
+  memberOf: [react-nextjs-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: karthika.natarajan
+spec:
+  profile:
+    displayName: Karthika Natarajan
+    email: karthiga.natarajan@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/avataaars/amelia-park@example.com.svg?background=%23fff
+  memberOf: [react-nextjs-team]

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fbh-backend
+  description: FBH backend component
+  links:
+    - url: https://heartfulness.org/forest/
+      title: API URL
+      icon: dashboard
+  tags:
+    - java
+    - mysql 
+spec:
+  type: service
+  lifecycle: production
+  owner: java-team
+  system: fbh-portal
+  dependsOn: ['resource:fbh-db']
+  apiConsumedBy: ['component:www-fbh']
+  
