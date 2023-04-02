@@ -23,5 +23,10 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./devops-team-group.yaml
-    - ./frontend-team-group.yaml
+    - ./ba-team.yaml
+    - ./devops-aws-team.yaml
+    - ./devops-gcp-team.yaml
+    - ./managar-team.yaml
+    - ./product-owner-team.yaml
+    - ./qa-team.yaml
+    - ./react-nextjs-team.yaml
