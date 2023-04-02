@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: Admin Interfaces Domain
+  name: admin-interfaces-domain
   description: Everything related to Admin Interface Portals
   links:
     - url: https://campus.heartfulness.org/
