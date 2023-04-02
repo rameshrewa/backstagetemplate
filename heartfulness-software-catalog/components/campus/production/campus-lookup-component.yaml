@@ -17,6 +17,4 @@ spec:
   system: campus-portal
   dependsOn: ['resource:campus-db']
   apiConsumedBy: ['component:www-campus']
-  providesApis:
-    - campus-restful-api
   
