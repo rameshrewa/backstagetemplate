@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: www-campus
+  description: campus main website
+  links:
+    - url: https://campus.heartfulness.org/
+      title: Home page
+      icon: dashboard
+  tags:
+    - reactjs
+spec:
+  type: website
+  lifecycle: production
+  owner: react-nextjs-team
+  system: campus-portal
+  #consumesApis: ['component:campus-lookup']
+  consumesApis:
+    - campus-restful-api

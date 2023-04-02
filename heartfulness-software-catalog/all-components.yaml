@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-components
+  description: A collection of all Backstage example components
+spec:
+  targets:
+    - ./components/campus/production/campus-lookup-component.yaml
+    - ./components/campus/production/www-campus-component.yaml
+    - ./components/shared/srcm-login-component.yaml
+    - ./components/fbh/production/fbh-backend-component.yaml
+    - ./components/fbh/production/www-fbh-component.yaml
+   
+    

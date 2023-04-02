@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: www-fbh
+  description: FBH main website
+  links:
+    - url: https://fbh.heartfulness.org/
+      title: Home page
+      icon: dashboard
+  tags:
+    - reactjs
+spec:
+  type: website
+  lifecycle: production
+  owner: react-nextjs-team
+  system: fbh-portal
+  consumesApis: ['component:fbh-lookup']
