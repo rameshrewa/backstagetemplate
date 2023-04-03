@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: www-gurugram-website
+  name: www-gurugram
   description: Gurugram main website
   links:
     - url: https://heartfulness.org/meditation-center-in-gurugram/
