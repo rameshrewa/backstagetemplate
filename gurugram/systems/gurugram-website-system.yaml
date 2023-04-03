@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: gurugram-website
+  name: gurugram-website=system
   description: Everything related to gurugram Website  
   links:
     - url: https://heartfulness.org/heartfulness-international-sports-center/
