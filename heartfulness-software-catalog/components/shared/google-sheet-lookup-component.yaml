@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: google-sheet-lookup
+  description: Google Sheet Write API service
+  tags:
+    - php
+spec:
+  type: library
+  lifecycle: production
+  owner: php-team
+  system: hisc-website

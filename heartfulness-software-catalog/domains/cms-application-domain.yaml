@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cms-application-domain
+  description: Everything related to CMS applications
+  links:
+    - url: https://heartfulness.org/meditation-center-in-gurugram/
+      title: Gurugram
+    - url: https://heartfulness.org/heartfulness-international-sports-center/
+      title: HISC
+      icon: dashboard
+spec:
+  owner: manager-team

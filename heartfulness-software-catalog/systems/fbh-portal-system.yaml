@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: fbh-portal
+  description: Everything related to FBH System
+  links:
+    - url: https://heartfulness.org/forests/
+      title: Home page
+      icon: dashboard
+  tags:
+    - gatsby
+    - java
+spec:
+  owner: product-owner-team
+  domain: donation-application-domain

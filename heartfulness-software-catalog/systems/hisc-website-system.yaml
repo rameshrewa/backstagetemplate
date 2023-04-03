@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: hisc-website
+  description: Everything related to HISC Website
+  links:
+    - url: https://heartfulness.org/heartfulness-international-sports-center/
+      title: Home page
+      icon: dashboard
+  tags:
+    - nextjs
+spec:
+  owner: product-owner-team
+  domain: cms-application-domain

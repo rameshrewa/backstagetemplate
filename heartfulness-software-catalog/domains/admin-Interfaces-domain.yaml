@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: admin-interfaces-domain
+  description: Everything related to Admin Interface Portals
+  links:
+    - url: https://campus.heartfulness.org/
+      title: Campus Website
+    - url: https://heartfulness.org/forests/
+      title: FBH Website
+      icon: dashboard
+spec:
+  owner: manager-team

@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-apis
+  description: A collection of all Backstage example APIs
+spec:
+  targets:
+    - ./apis/campus/production/campus-restful-api.yaml
+    - ./apis/fbh/production/fbh-restful-api.yaml
+    - ./apis/shared/production/payment-restful-api.yaml
+    - ./apis/shared/production/google-sheet-api.yaml

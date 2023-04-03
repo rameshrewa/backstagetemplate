@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: www-hisc
+  description: HISC main website
+  links:
+    - url: https://heartfulness.org/heartfulness-international-sports-center/
+      title: Home page
+      icon: dashboard
+  tags:
+    - nextjs
+spec:
+  type: website
+  lifecycle: production
+  owner: react-nextjs-team
+  system: hisc-website
+  consumesApis: ['component:google-sheet-lookup']

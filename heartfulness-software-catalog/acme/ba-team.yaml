@@ -1,0 +1,46 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ba-team
+  description: Business Analyst Team
+spec:
+  type: team
+  profile:
+    displayName: Amar K
+    email: amar.k@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/identicon/team-c@example.com.svg?background=%23fff&margin=25
+  parent: boxoffice
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: amar.k
+spec:
+  profile:
+    displayName: Amar K
+    email: amar.k@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/avataaars/calum-leavy@example.com.svg?background=%23fff
+  memberOf: [ba-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: prinston.cindhijan
+spec:
+  profile:
+    displayName: Prinston Cindhijan
+    email: prinston.cindhijan@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/avataaars/frank-tiernan@example.com.svg?background=%23fff
+  memberOf: [ba-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: harivishnu.ramar
+spec:
+  profile:
+    displayName: Harivishnu Ramar
+    email: harivishnu.ramar@volunteer.heartfulness.org
+    picture: https://avatars.dicebear.com/api/avataaars/frank-tiernan@example.com.svg?background=%23fff
+  memberOf: [ba-team]

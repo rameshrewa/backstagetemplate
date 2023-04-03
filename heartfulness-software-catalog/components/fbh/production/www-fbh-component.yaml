@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: www-fbh
+  description: FBH main website
+  links:
+    - url: https://heartfulness.org/forests/
+      title: Home page
+      icon: dashboard
+  tags:
+    - gatsby
+spec:
+  type: website
+  lifecycle: production
+  owner: react-nextjs-team
+  system: fbh-portal
+  consumesApis:
+    - fbh-restful-api
