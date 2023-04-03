@@ -12,6 +12,6 @@ spec:
     - ./components/fbh/production/www-fbh-component.yaml
     - ./components/shared/google-sheet-lookup-component.yaml
     - ./components/hisc/production/www-hisc-component.yaml
-    - ./components/gurugram/production/www-gurugram-component.yaml
+    #- ./components/gurugram/production/www-gurugram-component.yaml
    
     

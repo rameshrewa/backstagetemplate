@@ -8,4 +8,4 @@ spec:
     - ./systems/campus-portal-system.yaml
     - ./systems/fbh-portal-system.yaml
     - ./systems/hisc-website-system.yaml
-    - ./systems/gurugram-website-system.yaml
+    #- ./systems/gurugram-website-system.yaml
